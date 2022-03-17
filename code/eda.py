@@ -6,8 +6,10 @@ import re
 import nltk
 import random
 from random import shuffle
+
 random.seed(1)
 
+nltk.download('omw-1.4')
 
 # stop words list
 stop_words = ['i', 'me', 'my', 'myself', 'we', 'our',
